@@ -18,3 +18,10 @@ A travel companion app that converts currencies and translates essential words a
 - Use Podfile to digitally sign and authorize requests made to the API using [MastercardOAuth1Signer](https://github.com/Mastercard/oauth1-signer-swift).
 - Save and retrieve the exchange rate locally using UserDefaults to avoid expensive roaming costs abroad.
 - Made for iOS using SwiftUI.
+
+## How-To
+- A [Mastercard Developer account](https://developer.mastercard.com/product/currency-conversion-calculator/) is required to create a project and generate a certificate and consumer key. For more information, look at the [Mastercard Quick Start Guide](https://developer.mastercard.com/platform/documentation/getting-started-with-mastercard-apis/quick-start-guide/).
+
+1) Import your `.p12` certificate in the Xcode project and edit the `certificateName` constant on line 171 inside ContentView.swift.
+2) Edit the `keystorePassword` constant on line 177 inside ContentView.swift.
+3) Edit the `consumerKey` constant on line 182 inside ContentView.swift.

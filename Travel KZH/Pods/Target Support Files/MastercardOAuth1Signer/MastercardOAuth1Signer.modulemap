@@ -1,0 +1,6 @@
+framework module MastercardOAuth1Signer {
+  umbrella header "MastercardOAuth1Signer-umbrella.h"
+
+  export *
+  module * { export * }
+}

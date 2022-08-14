@@ -1,0 +1,16 @@
+PODS:
+  - MastercardOAuth1Signer (1.1.0)
+
+DEPENDENCIES:
+  - MastercardOAuth1Signer
+
+SPEC REPOS:
+  trunk:
+    - MastercardOAuth1Signer
+
+SPEC CHECKSUMS:
+  MastercardOAuth1Signer: 2e5250dc6b4a72716a4a42ea2ae943420fa6aace
+
+PODFILE CHECKSUM: 1fecc2c5f23e4d4ab645344037dae83eb8d4c6e6
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12FC4806C8B13D6DFD74A55F /* Pods_Travel_KZH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8547AD7231E291134E921654 /* Pods_Travel_KZH.framework */; };
+		260DACA52878997500AC5D27 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DACA42878997500AC5D27 /* DateExtension.swift */; };
+		260DACA728789A5000AC5D27 /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260DACA628789A5000AC5D27 /* Glossary.swift */; };
+		26A6A2832875DD9300D6DA36 /* MastercardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6A2822875DD9300D6DA36 /* MastercardAPI.swift */; };
+		26BB738E2874E4EE00748238 /* Travel_KZHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BB738D2874E4EE00748238 /* Travel_KZHApp.swift */; };
+		26BB73902874E4EE00748238 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BB738F2874E4EE00748238 /* ContentView.swift */; };
+		26BB73922874E4EE00748238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26BB73912874E4EE00748238 /* Assets.xcassets */; };
+		26BB73952874E4EE00748238 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26BB73942874E4EE00748238 /* Preview Assets.xcassets */; };
+		26EBEAAB28779C7600421817 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EBEAAA28779C7600421817 /* UserDefaultsManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		260DACA42878997500AC5D27 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		260DACA628789A5000AC5D27 /* Glossary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
+		26A6A2822875DD9300D6DA36 /* MastercardAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastercardAPI.swift; sourceTree = "<group>"; };
+		26BB738A2874E4EE00748238 /* Kazakhstan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kazakhstan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BB738D2874E4EE00748238 /* Travel_KZHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_KZHApp.swift; sourceTree = "<group>"; };
+		26BB738F2874E4EE00748238 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26BB73912874E4EE00748238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26BB73942874E4EE00748238 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26EBEAAA28779C7600421817 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		8547AD7231E291134E921654 /* Pods_Travel_KZH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travel_KZH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9475EE8EBA223404B9110298 /* Pods-Travel KZH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel KZH.release.xcconfig"; path = "Target Support Files/Pods-Travel KZH/Pods-Travel KZH.release.xcconfig"; sourceTree = "<group>"; };
+		EAAD104A69926B7A4758684C /* Pods-Travel KZH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel KZH.debug.xcconfig"; path = "Target Support Files/Pods-Travel KZH/Pods-Travel KZH.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26BB73872874E4EE00748238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FC4806C8B13D6DFD74A55F /* Pods_Travel_KZH.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26BB73812874E4EE00748238 = {
+			isa = PBXGroup;
+			children = (
+				26BB738C2874E4EE00748238 /* Travel KZH */,
+				26BB738B2874E4EE00748238 /* Products */,
+				B7BF4B35254BB808C2AF63D4 /* Pods */,
+				B683522760BD5CAAE1F217E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26BB738B2874E4EE00748238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26BB738A2874E4EE00748238 /* Kazakhstan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26BB738C2874E4EE00748238 /* Travel KZH */ = {
+			isa = PBXGroup;
+			children = (
+				26BB738D2874E4EE00748238 /* Travel_KZHApp.swift */,
+				26BB738F2874E4EE00748238 /* ContentView.swift */,
+				260DACA628789A5000AC5D27 /* Glossary.swift */,
+				260DACA42878997500AC5D27 /* DateExtension.swift */,
+				26EBEAAA28779C7600421817 /* UserDefaultsManager.swift */,
+				26A6A2822875DD9300D6DA36 /* MastercardAPI.swift */,
+				26BB73912874E4EE00748238 /* Assets.xcassets */,
+				26BB73932874E4EE00748238 /* Preview Content */,
+			);
+			path = "Travel KZH";
+			sourceTree = "<group>";
+		};
+		26BB73932874E4EE00748238 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26BB73942874E4EE00748238 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B683522760BD5CAAE1F217E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8547AD7231E291134E921654 /* Pods_Travel_KZH.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7BF4B35254BB808C2AF63D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAAD104A69926B7A4758684C /* Pods-Travel KZH.debug.xcconfig */,
+				9475EE8EBA223404B9110298 /* Pods-Travel KZH.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26BB73892874E4EE00748238 /* Travel KZH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BB73982874E4EE00748238 /* Build configuration list for PBXNativeTarget "Travel KZH" */;
+			buildPhases = (
+				B87F45678FB585D08DC0EC85 /* [CP] Check Pods Manifest.lock */,
+				26BB73862874E4EE00748238 /* Sources */,
+				26BB73872874E4EE00748238 /* Frameworks */,
+				26BB73882874E4EE00748238 /* Resources */,
+				B652060CB109411053B480DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Travel KZH";
+			productName = "Travel KZH";
+			productReference = 26BB738A2874E4EE00748238 /* Kazakhstan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26BB73822874E4EE00748238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					26BB73892874E4EE00748238 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 26BB73852874E4EE00748238 /* Build configuration list for PBXProject "Travel KZH" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26BB73812874E4EE00748238;
+			productRefGroup = 26BB738B2874E4EE00748238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26BB73892874E4EE00748238 /* Travel KZH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26BB73882874E4EE00748238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BB73952874E4EE00748238 /* Preview Assets.xcassets in Resources */,
+				26BB73922874E4EE00748238 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B652060CB109411053B480DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travel KZH/Pods-Travel KZH-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Travel KZH/Pods-Travel KZH-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Travel KZH/Pods-Travel KZH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87F45678FB585D08DC0EC85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Travel KZH-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26BB73862874E4EE00748238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BB73902874E4EE00748238 /* ContentView.swift in Sources */,
+				260DACA52878997500AC5D27 /* DateExtension.swift in Sources */,
+				26EBEAAB28779C7600421817 /* UserDefaultsManager.swift in Sources */,
+				26A6A2832875DD9300D6DA36 /* MastercardAPI.swift in Sources */,
+				260DACA728789A5000AC5D27 /* Glossary.swift in Sources */,
+				26BB738E2874E4EE00748238 /* Travel_KZHApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26BB73962874E4EE00748238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26BB73972874E4EE00748238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26BB73992874E4EE00748238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAAD104A69926B7A4758684C /* Pods-Travel KZH.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travel KZH/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.widmer.Travel-KZH";
+				PRODUCT_NAME = Kazakhstan;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26BB739A2874E4EE00748238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9475EE8EBA223404B9110298 /* Pods-Travel KZH.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Travel KZH/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.widmer.Travel-KZH";
+				PRODUCT_NAME = Kazakhstan;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26BB73852874E4EE00748238 /* Build configuration list for PBXProject "Travel KZH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BB73962874E4EE00748238 /* Debug */,
+				26BB73972874E4EE00748238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26BB73982874E4EE00748238 /* Build configuration list for PBXNativeTarget "Travel KZH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BB73992874E4EE00748238 /* Debug */,
+				26BB739A2874E4EE00748238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26BB73822874E4EE00748238 /* Project object */;
+}
