@@ -41,10 +41,7 @@ struct CurrencyView: View {
 					.frame(width: nil, height: 45, alignment: .leading)
 					.frame(maxWidth: .infinity)
 					.padding(.horizontal, 12)
-					.background(Color(#colorLiteral(red: 0.6705882549,
-													green: 0.6705882549,
-													blue: 0.6705882549,
-													alpha: 0.2)))
+					.background(Color("TransparentLightGray"))
 					.cornerRadius(7)
 					
 					// KZT amount converted in CHF
