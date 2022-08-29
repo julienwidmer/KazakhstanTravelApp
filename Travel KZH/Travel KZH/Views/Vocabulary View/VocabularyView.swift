@@ -40,8 +40,10 @@ struct VocabularyView: View {
     }
 }
 
+#if DEBUG
 struct VocabularyView_Previews: PreviewProvider {
     static var previews: some View {
         VocabularyView()
     }
 }
+#endif

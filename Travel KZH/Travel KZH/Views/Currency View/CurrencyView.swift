@@ -128,8 +128,10 @@ struct CurrencyView: View {
     }
 }
 
+#if DEBUG
 struct CurrencyView_Previews: PreviewProvider {
     static var previews: some View {
         CurrencyView()
     }
 }
+#endif
