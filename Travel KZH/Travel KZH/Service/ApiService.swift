@@ -9,7 +9,7 @@ import Foundation
 import MastercardOAuth1Signer
 
 protocol ApiService {
-	func getUrl() -> URL
+	func getApiUrl() -> URL
 }
 
 /// Implementation class of `ApiService`
@@ -19,7 +19,7 @@ final class ApiServiceImpl: ApiService {
 	// TODO: Refactor method to get currency rate here
 	
 	/// Get and create Mastercard API URL
-	func getUrl() -> URL {
+	func getApiUrl() -> URL {
 		let cardCurrency = "CHF"
 		let transactionCurrency = "KZT"
 		let date = Date.now.getFormattedDate()

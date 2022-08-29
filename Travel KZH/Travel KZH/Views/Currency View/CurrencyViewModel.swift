@@ -49,7 +49,7 @@ extension CurrencyView {
 					// Private Key loaded ✅
 					// TODO: - Edit the Consumer Key with the one from the Mastercard Developer Portal
 					let consumerKey = "YOUR_CONSUMER_KEY_HERE" // from developer portal
-					let url = apiService.getUrl()
+					let url = apiService.getApiUrl()
 					
 					do {
 						let header = try OAuth.authorizationHeader(
