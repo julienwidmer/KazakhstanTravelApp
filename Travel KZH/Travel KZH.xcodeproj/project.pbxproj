@@ -20,6 +20,7 @@
 		2C8C013428BD083B0007F6DB /* VocabularyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C013328BD083B0007F6DB /* VocabularyView.swift */; };
 		2C8C013828BD09BA0007F6DB /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C013728BD09BA0007F6DB /* CurrencyViewModel.swift */; };
 		2C8C013B28BD10160007F6DB /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C013A28BD10160007F6DB /* ApiService.swift */; };
+		2C8C013D28BD16510007F6DB /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C013C28BD16510007F6DB /* Symbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		2C8C013328BD083B0007F6DB /* VocabularyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyView.swift; sourceTree = "<group>"; };
 		2C8C013728BD09BA0007F6DB /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
 		2C8C013A28BD10160007F6DB /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		2C8C013C28BD16510007F6DB /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 		8547AD7231E291134E921654 /* Pods_Travel_KZH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travel_KZH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9475EE8EBA223404B9110298 /* Pods-Travel KZH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel KZH.release.xcconfig"; path = "Target Support Files/Pods-Travel KZH/Pods-Travel KZH.release.xcconfig"; sourceTree = "<group>"; };
 		EAAD104A69926B7A4758684C /* Pods-Travel KZH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travel KZH.debug.xcconfig"; path = "Target Support Files/Pods-Travel KZH/Pods-Travel KZH.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				2C8C013028BD06520007F6DB /* Dates */,
 				2C8C012F28BD064C0007F6DB /* UserDefaults */,
+				2C8C013C28BD16510007F6DB /* Symbols.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				26BB73902874E4EE00748238 /* ContentView.swift in Sources */,
 				260DACA52878997500AC5D27 /* DateExtension.swift in Sources */,
 				2C8C013428BD083B0007F6DB /* VocabularyView.swift in Sources */,
+				2C8C013D28BD16510007F6DB /* Symbols.swift in Sources */,
 				26EBEAAB28779C7600421817 /* UserDefaultsManager.swift in Sources */,
 				26A6A2832875DD9300D6DA36 /* MastercardAPI.swift in Sources */,
 				2C8C013228BD07A50007F6DB /* CurrencyView.swift in Sources */,

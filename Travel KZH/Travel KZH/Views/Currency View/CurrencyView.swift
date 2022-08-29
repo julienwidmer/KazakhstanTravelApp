@@ -35,8 +35,8 @@ struct CurrencyView: View {
 						.keyboardType(.decimalPad)
 						.focused($customKZTAmountIsFocused)
 						
-						Image(systemName: "keyboard")
-							.font(.system(size: 15))
+						Symbols.keyboard
+							.font(.callout)
 					}
 					.frame(width: nil, height: 45, alignment: .leading)
 					.frame(maxWidth: .infinity)
@@ -59,7 +59,7 @@ struct CurrencyView: View {
 					)
 				}
 				.padding(.vertical, 4)
-				.font(.system(size: 17, weight: .regular, design: .rounded))
+				.font(.system(.body, design: .rounded))
 			} header: {
 				if let info = viewModel.getHeaderString() {
 					Text(info)
@@ -81,7 +81,7 @@ struct CurrencyView: View {
 							Text("CHF n/a")
 						}
 					}
-					.font(.system(size: 17, weight: .regular, design: .rounded))
+					.font(.system(.body, design: .rounded))
 				}
 			} footer: {
 				Text(viewModel.getFooterString())
@@ -122,13 +122,10 @@ struct CurrencyView: View {
 				Button("Done") {
 					customKZTAmountIsFocused.toggle()
 				}
+				.font(.headline)
 			}
 		}
     }
-}
-
-private extension CurrencyView {
-	
 }
 
 struct CurrencyView_Previews: PreviewProvider {

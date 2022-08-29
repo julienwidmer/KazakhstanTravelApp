@@ -16,7 +16,7 @@ struct ContentView: View {
                 CurrencyView()
             }
             .tabItem {
-                Image(systemName: "tengesign.square")
+				Symbols.tengesignSquared
                 Text("Currency")
             }
             // MARK: - NavigationView - Vocabulary
@@ -24,7 +24,7 @@ struct ContentView: View {
                 VocabularyView()
             }
             .tabItem {
-                Image(systemName: "person.2.wave.2.fill")
+				Symbols.twoPersonsWithWaveFilled
                 Text("Vocabulary")
             }
         }
