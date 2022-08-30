@@ -22,6 +22,6 @@ A travel companion app that converts currencies and translates essential words a
 ## How-To
 - A [Mastercard Developer account](https://developer.mastercard.com/product/currency-conversion-calculator/) is required to create a project and generate a certificate and consumer key. For more information, look at the [Mastercard Quick Start Guide](https://developer.mastercard.com/platform/documentation/getting-started-with-mastercard-apis/quick-start-guide/).
 
-1) Import your `.p12` certificate in the Xcode project and edit the `certificateName` constant on line 171 inside ContentView.swift.
-2) Edit the `keystorePassword` constant on line 177 inside ContentView.swift.
-3) Edit the `consumerKey` constant on line 182 inside ContentView.swift.
+1) Import your MasterCard API's `.p12` certificate in the Xcode project and edit the `certificateName` constant in `CurrencyViewModel.swift`.
+2) Edit the `keystorePassword` constant in `CurrencyViewModel.swift`.
+3) Edit the `consumerKey` constant in `CurrencyViewModel.swift`.
